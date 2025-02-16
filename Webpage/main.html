@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="About.html">
+    <link rel="stylesheet" href="contact.html">
+    <style>
+        .one {
+            text-align: right;
+            word-spacing: 10px;
+            margin-right: 60px;
+            font-size: 20px;
+        }
+        .sec {
+            width: 1500px;
+            height: 650px;
+            background-image: url("hhshhs.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 2px solid black;
+            padding: 20px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+        .for {
+            text-align: center;
+            margin-top: 20px; /* Add some space between elements */
+        }
+        label {
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: block; /* Ensure label is a block element */
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            width: 250px; /* Adjust width of input */
+            margin-bottom: 20px; /* Add space below input */
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 style="font-style: italic; text-align: center; background-color: cadetblue; height: 50px; width: 1500px;">Landing Page</h1>
+  
+    <div class="sec"> 
+        <div class="one">
+            <a href="web.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p style="text-align: center; font-size: 30px; text-decoration-line: underline;">Welcome to the learning platform!</p>
+        <p style="text-align: center;">An interactive online space designed to empower learners with knowledge, skills, and growth opportunities.</p>
+        <img src="new image 2.jpg" style="height: 300px; width: 500px; margin-top: 10px; margin-left: 500px;">
+
+        <!-- Form Container for Username and Submit Button -->
+        <div class="for">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <button type="submit">Sign In</button> <!-- Submit button placed below input -->
+        </div>
+    </div>
+
+</body>
+</html>
