@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO FORM</title>
+</head>
+<style>
+    body{
+        background-color: blue;
+    }
+    #formcontainer{
+        background-color: white;
+        height: 900px;
+        width: 500px;
+        margin: auto;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+
+    }
+    #formcontainer2 {
+        
+        margin: auto;
+        background-color: rgb(206, 205, 205);
+        width: 450px;
+        padding: 1px 1px;
+        
+    }
+    .fname{
+        display: inline-block;
+        margin-right: 60px;
+        margin-left: 25px;
+        margin-top: 10px;}
+    .lname{
+        display: inline-block;
+    }
+    .fname input{  
+        display: block;
+    }
+    .lname input {
+        display: block;
+    }
+    .email{
+        display: inline-block;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .role{
+        display: block;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .Company{
+        display: inline-block;
+        margin-left: 25px;
+        margin-top: 10px;
+        
+    }
+
+    .country{
+        display: block;
+        margin-left: 25px;
+        margin-top: 10px;
+
+    }
+    .postal{
+        display: inline-block;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .username{
+        display: inline-block;
+        margin-left: 25px;
+        margin-top: 10px;
+}
+.username p{
+    font-size: 12px;
+}
+.cheak a{
+    text-decoration: none;
+}
+button{
+    width: 400px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 45px;
+    background-color: rgb(73, 73, 247);
+    color: white;
+}
+.ab p{
+    margin-top: 30px;
+    text-align: center;
+}
+.abc a{
+    margin-top: 50px;
+    margin-left: 230px;
+    text-decoration: none;
+}
+
+</style>
+<body>
+    <div id="formcontainer">
+    <img src="salesforce-logo-corporate.svg">
+    <p style="text-align: center ; font-family: 'Times New Roman', Times, serif; font-size: 18px;">
+        Sign up for your Salesforce Developer Edition
+    </p>
+    <p style="text-align: center ; font-family: 'Times New Roman', Times, serif; font-size: 15px;">
+        A Salesforce Platform environment for free.
+    </p>
+
+    <div id="formcontainer2">
+        <p style="font-size: 15px; text-align: center;">Complete the form to get access to the Salesforce Developer Edition.</p>
+
+      </div>
+      <form action="#">
+        <div class="fname">
+            <label for="fname">First Name</label >
+            <input type="text" name="fname" id="fmane" placeholder="Your First Nme" >
+        </div>
+        <div class="lname"> 
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" placeholder="Last Name" >
+        </div>
+        <div class="email" style="width: 100%; "> 
+            <label for="Email">Email</label>
+            <input type="text" name="Email" id="Email" placeholder="your email add" style="width: 90%; display: block; padding: 5px;" >
+        </div>
+        <div class="role" style="width: 100%;">
+            <label for="Role">Role*</label>
+            <select name="Role" id="Role" placeholder=" your job role "style="width: 90%;display: block; padding: 5px; ">
+                <option value="disabled selected">your job role</option>
+                <option value="developer">developer</option>
+                <option value="IT Manager">IT manager</option>
+                <option value="ddeveloper">developer</option>
+                <option value="IT Manager">IT manager</option>
+            </select>
+            
+        </div>
+        <div class="Company" style="width: 100%;"> 
+            <label for="Company">Company Name*</label>
+            <input type="text" name="Company" id="Company" placeholder="Company Name" style=" display: block; width: 90%;padding: 5px;" >
+        </div>
+        <div class="country" style="width: 100%;">
+            <label for="country">country/region*</label>
+            <select name="country" id="country" placeholder=" your Country " style="width: 90%;display: block; height: 50;padding: 5px; ">
+                <option value="disabled selected">your Country</option>
+                <option value="india">India</option>
+                <option value="Pakistan">Pakistanr</option>
+                <option value="Bangladesh">Bangladeshr</option>
+                <option value="Caneda">Caneda</option>
+            </select>
+        </div>
+        <div class="postal" style="width: 100%;"> 
+            <label for="postal code">Postal code*</label>
+            <input type="text" name="Postal code" id="Postal code" placeholder="Postal code" style=" display: block; width: 90%;padding: 5px;" >
+        </div>
+        <div class="username" style="width: 100%;"> 
+            <label for="User name">User name*</label>
+            <input type="text" name="User name" id="User name" placeholder=" Enter User name" style=" display: block; width: 90%;padding: 5px;" >
+            <p>Your username must be in the form of an email address (it does not have to be real). It must be <br>unique and cannot be associated with another Salesforce login credential. Read more  <br>about username recommendations.</p>
+        </div>
+        <div class="cheak">
+            
+            <input type="checkbox" id="myCheckbox" name="terms" value="agree" style="margin-left: 25px;">
+            <label for="Checkbox">I agree to the <a href="">Main Services Agreement — Developer Services</a> and <br> <a href="" >Salseforce Program Agreement.</a>
+        </div>
+      <div class="button" style="width: 100%;"></div>
+      <button> Sign me up</button>
+
+      <div class="ab">
+       <p>Already have a Salesforce Developer Environment?</p>
+       <div class="abc">
+        <a href="">log in</a>
+     </div>
+    </div>
+ </div>
+ 
+    
+</form>
+    
+</body>
+</html>
