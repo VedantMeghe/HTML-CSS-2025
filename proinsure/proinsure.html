@@ -14,11 +14,12 @@
         height: 100px;
         display: flex;
         align-items: center;
-        background-color:aqua;
+        background-color:white;
         justify-content: space-between;
         padding: 10px 90px;
         position: fixed;
-        top: 0px;
+        top: 0%;
+        content: justify;
         width: 100%;
        
        }
@@ -27,6 +28,8 @@
         margin-left: 20px;
         color:gray;
         text-transform: uppercase;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400px;
     }
     .link a:hover{
         color: black;
@@ -44,18 +47,19 @@
     .info{
         margin-top: 100px;
         height: 480px;
-        background-color: rgb(180, 177, 184);
+       
        
     }
     .main{
         height: 450px;
-        background-color:rgb(59, 3, 116);
+        background-color:#2d2640;
         margin-top: px;
         padding: 1px 90px;
         display: flex;
         justify-content: space-between;
         
     }
+    
     .line{
         width: 200px;
         color:white;
@@ -64,10 +68,12 @@
     .head h1{
         margin-top: 20px;
         font-size: 50px;
+        color: white;
     }
     .head p{
         margin-top: 20px;
         margin-bottom: 40px;
+        color: white;
     }
    .image img{
     margin-top: 20px;
@@ -76,7 +82,7 @@
  }
 .btnn {
     border: 1px solid white;
-    color: white;
+    color:white;
     text-decoration: none;
     padding: 10px;
  }
@@ -85,7 +91,7 @@
     color: blue;
  }
  .sinfo{
-    background-color: blueviolet;
+   
     height: 500px;
     margin-top: 50px;
  }
@@ -109,6 +115,7 @@
     }
     .shead h1{
         font-size: 40px;
+        margin-top: 60px;
     
     }
     .shead p{
@@ -116,17 +123,106 @@
         margin-bottom: 40px;
     }
     .sbtnn{
-        border: 1px solid white;
-    color: white;
+        border: 1px solid grey;
+    color:grey;
     text-decoration: none;
     padding: 10px;
 
     }
     .sbtnn:hover{
-    background-color: white;
-    color: blue;
+    background-color:blue;
+    color: white;
  }
+.tmain{
+    height: 300px;
+  
+    padding: 1px 90px;
+}
+ .tline{
+    width: 200px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
 
+ }
+ .tinfo{
+    display: flex;
+    justify-content: space-between;
+ }
+ .circle{
+    margin-top: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+ }
+ .tinfo h2{
+    margin-top: 30px;
+ }
+ .tinfo p{
+    margin-top: 20px;
+ }
+ .fmain{ 
+    background-color: #2d2640;
+    height: 200px;
+    margin: 80px 90px;
+  
+ }
+ .fhead{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 50px 100px;
+   
+    
+ }
+ .finfo{
+    color: white;
+    
+
+ }
+ .finfof{
+   margin-top: 40px;
+
+ }
+ .finfof .fbtnn{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+   
+}
+.fbtnn:hover{
+    color: blue;
+    background-color: white;
+}
+.pro{
+    
+    padding: 1px 90px;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    padding:1px 290px;
+}
+.a a{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+footer{
+        margin-top: 20px;
+        height: 80px;
+        display: flex;
+        background-color:#2d2640;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+}
  
  
  
@@ -177,6 +273,57 @@
 
 </div>
 </div>
+
+<div class="tmain">
+<div class="tline"> <hr></div>
+<h1>We Are Different</h1>
+<div class="thead">
+    <div class="tinfo">
+        <div class="one">
+            <div class="circle"></div>
+            <h2>Easy Process</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Beatae et provident commodi <br> atque fugiat sequi ex unde dolores.</p>
+        </div>
+        <div class="two">
+            <div class="circle"></div>
+            <h2>Affordable price</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Beatae et provident commodi <br> atque fugiat sequi ex unde dolores.</p>
+        </div>
+        <div class="three">
+            <div class="circle"></div>
+            <h2>You come first</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Beatae et provident commodi <br> atque fugiat sequi ex unde dolores.</p>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="fmain">
+    <div class="fhead">
+        <div class="finfo">
+            <h1>Find out more <br>
+                about how we work</h1>
+        </div>
+      <div class="finfof"> <a class="fbtnn" href="#">How We Work</a>
+    </div>
+          
+
+    </div>
+
+</div>
+
+<div class="pro">
+    <h2>Proinsure</h2>
+    <hr>
+    <div class="a"><a href="#">home</a>
+    <a href="#">about</a>
+    <a href="#">contact us</a>
+    <a href="#">How we work</a>
+</div>
+</div>
+<footer>
+    <h2>© AltCampus Services Pvt Ltd, 2018-present</h2>
+</footer>
 
 
 
