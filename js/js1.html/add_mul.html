@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add and Multiply</title>
+</head>
+<body>
+    
+
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+    
+   
+
+    <button onclick="addNumbers()">Add</button>
+    <button onclick="multiplyNumbers()">Multiply</button>
+
+    <h3>Result: <span id="result"></span></h3>
+
+    <script>
+        function addNumbers() {
+            
+            const num1 = parseFloat(document.getElementById('num1').value);
+            const num2 = parseFloat(document.getElementById('num2').value);
+
+            
+            const result = num1 + num2;
+
+           
+            document.getElementById('result').innerText = result;
+        }
+
+        function multiplyNumbers() {
+            
+            const num1 = parseFloat(document.getElementById('num1').value);
+            const num2 = parseFloat(document.getElementById('num2').value);
+
+           
+            const result = num1 * num2;
+
+          
+            document.getElementById('result').innerText = result;
+        }
+    </script>
+</body>
+</html>
